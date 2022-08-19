@@ -48,7 +48,7 @@ h2 {
 	
 }
 h3 {
-	font-size: 1.15em;
+	font-size: 1em;
 	text-align:left;
 	padding-left:1em;
 }
@@ -68,9 +68,9 @@ footer{
    height:auto;
    background-color:#654528 ;
    font-size: 1.5em;
-   
-   outline: 2px solid orange;
+   margin-bottom: 1em; 
    text-align: center;
+   outline: 2px solid orange;
    
 }
 footer a{
