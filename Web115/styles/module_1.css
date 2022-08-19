@@ -18,9 +18,12 @@ body{
 	
 }
 ul {
-	padding: 4px;;
+	padding: 4px;
+	
 }
-
+li {
+	margin-left: 4px;
+}
 body > header {
 	display: block;
 	width: 100%;
