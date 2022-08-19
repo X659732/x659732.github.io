@@ -49,15 +49,20 @@ h2 {
 	
 	
 }
+h3 {
+	font-size: 1.15em;
+	text-align:left;
 
-h1, h2 {
+h1, h2, h3 {
 	letter-spacing: 0.1em;
 }
 body > main > p {
 	text-align: center;
 	padding: .5em;
 }
-
+body > main > ul{
+	text-align:left;
+}
 /* Footer Styles */
 footer{
    color: #F1F1F1;
