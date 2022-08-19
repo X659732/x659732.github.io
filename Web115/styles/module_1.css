@@ -18,14 +18,9 @@ body{
 	
 }
 ul {
-	padding: 1em;
+	padding: 4px;;
 }
-body > main > ul > li {
-	font-family: "open sans", Verdana, Geneva, sans-serif;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 23px;
-}
+
 body > header {
 	display: block;
 	width: 100%;
@@ -59,8 +54,8 @@ h2 {
 	
 }
 h3 {
-	text-align: center;
-	font-size: 1.75em;
+	text-align: left;
+	font-size: .85em;
 }
 
 h1, h2 {
