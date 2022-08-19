@@ -17,12 +17,9 @@ body{
 	width: auto;
 	
 }
-ul {
-	padding: 4px;
-	
-}
+
 li {
-	margin-left: 4px;
+	
 	text-align:center;
 }
 body > header {
