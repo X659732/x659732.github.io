@@ -23,6 +23,7 @@ ul {
 }
 li {
 	margin-left: 4px;
+	text-align:center;
 }
 body > header {
 	display: block;
