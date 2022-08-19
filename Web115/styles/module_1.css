@@ -23,9 +23,11 @@ body > header {
 	display: block;
 	width: 100%;
 	height:auto;
+	outline: 2px solid orange;
 }
 body {
 	height:100%;
+	outline: 3px solid orange;
 }
 
 /* Heading Styles */
@@ -71,7 +73,7 @@ footer{
    font-size: 1.5em;
    
    bottom: 0;
-   
+   outline: 2px solid orange;
    text-align: center;
    
 }
