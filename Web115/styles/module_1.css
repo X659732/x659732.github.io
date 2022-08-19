@@ -20,11 +20,11 @@ body{
 ul {
 	padding: 1em;
 }
-li {
+body > main > ul > li {
 	font-family: "open sans", Verdana, Geneva, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	padding:	3px;
+	padding: 23px;
 }
 body > header {
 	display: block;
