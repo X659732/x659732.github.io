@@ -13,7 +13,7 @@ body{
 	margin-right: auto;
 	max-width: 960px;
 	min-width: 320px;
-	height:100%;
+	min-height:100vh;
 	width: auto;
 	
 }
@@ -22,11 +22,11 @@ body{
 body > header {
 	display: block;
 	width: 100%;
-	height:auto%;
+	height:auto;
 	margin-top:0;
 }
 body {
-	height:100%;
+	
 	outline: 3px solid orange;
 }
 
@@ -52,8 +52,8 @@ h2 {
 	
 }
 h3 {
-	text-align: left;
-	font-size: .85em;
+	text-align: center;
+	font-size: 1.5em;
 }
 
 h1, h2 {
