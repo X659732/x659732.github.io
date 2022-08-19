@@ -17,7 +17,9 @@ body{
 	width: auto;
 	
 }
-
+ul {
+	padding: 1em;
+}
 li {
 	font-family: "open sans", Verdana, Geneva, sans-serif;
 	margin-left: auto;
@@ -58,6 +60,7 @@ h2 {
 }
 h3 {
 	text-align: center;
+	font-size: 1.75em;
 }
 
 h1, h2 {
