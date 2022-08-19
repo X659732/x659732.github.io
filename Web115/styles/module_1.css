@@ -16,9 +16,14 @@ body{
 	height:100%;
 	width: auto;
 	
-
 }
 
+li {
+	font-family: "open sans", Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	padding:3px;
+}
 body > header {
 	display: block;
 	width: 100%;
