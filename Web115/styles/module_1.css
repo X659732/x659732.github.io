@@ -15,15 +15,19 @@ body{
 	min-width: 320px;
 	height:100%;
 	width: auto;
-	outline: 3px solid orange;
+	
 
 }
 
 body > header {
 	display: block;
 	width: 100%;
-	height:auto;
-	outline: 2px solid orange;
+	height:auto%;
+	margin-top:0;
+}
+body {
+	height:100%;
+	outline: 3px solid orange;
 }
 
 /* Heading Styles */
@@ -31,12 +35,12 @@ body > header {
 h1 {
 	font-size: 2.5em;
 	text-align: left;
-	padding:.1em ;
+	padding: .2em;
 	text-indent: .75em;
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
 	background-color:#BA895C;	
-	
+	outline: 2px solid orange;
 }
 h2 {
 	font-size: 1.75em;
@@ -53,7 +57,8 @@ h1, h2 {
 }
 body > main > p {
 	text-align: center;
-	padding: .5em;
+	padding-left: 1em;
+	padding-right: 1em;
 }
 
 /* Footer Styles */
