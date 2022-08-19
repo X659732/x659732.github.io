@@ -74,6 +74,7 @@ footer{
    margin-bottom: 0; 
    text-align: center;
    outline: 2px solid orange;
+   position: absolute;
    
 }
 footer a{
