@@ -15,7 +15,7 @@ body{
 	min-width: 320px;
 	height:100%;
 	width: auto;
-	
+	outline: 3px solid orange;
 
 }
 
@@ -24,10 +24,6 @@ body > header {
 	width: 100%;
 	height:auto;
 	outline: 2px solid orange;
-}
-body {
-	height:100%;
-	outline: 3px solid orange;
 }
 
 /* Heading Styles */
@@ -54,7 +50,8 @@ h2 {
 h3 {
 	font-size: 1.15em;
 	text-align:left;
-
+	padding-left:1em;
+}
 h1, h2, h3 {
 	letter-spacing: 0.1em;
 }
@@ -63,7 +60,7 @@ body > main > p {
 	padding: .5em;
 }
 body > main > ul{
-	text-align:left;
+	text-align:center;
 }
 /* Footer Styles */
 footer{
