@@ -68,7 +68,7 @@ p {
 a:visited {color: blue;}
 a:hover {color: orange;}
 figure { text-align: center;}
-figure > img { text-align: center;}
+
 /* Footer Styles */
 footer{
    color: #F1F1F1;
