@@ -65,6 +65,9 @@ p {
 	padding-right: 1em;
 	font-size: 1em;
 }
+a:visited {color: blue;}
+a:hover {color: orange;}
+
 
 /* Footer Styles */
 footer{
@@ -74,10 +77,9 @@ footer{
    font-size: 1.5em;
    margin-bottom: 0; 
    text-align: center;
-   outline: 3.5px solid orange;
-   
-   
+   outline: 3.5px solid orange;   
 }
+div > a {font-size: .85em;}
 footer a{
 	color: #F1F1F1;
 	text-decoration:none;
