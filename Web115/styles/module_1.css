@@ -67,7 +67,7 @@ p {
 }
 a:visited {color: blue;}
 a:hover {color: orange;}
-
+figure { text-align: center;}
 
 /* Footer Styles */
 footer{
