@@ -1,0 +1,97 @@
+﻿@charset "utf-8";
+
+html {
+	background: url(../images/herb1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	
+}
+
+body{
+
+	background-color: #ede4d3;
+	font-family: Georgia, serif, open sans, Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 320px;
+	height:100%;
+	width: auto;
+	margin-top:5%;
+
+}
+
+body > header {
+	display: block;
+	width: 100%;
+	height:auto%;
+	margin-top:0;
+}
+
+
+
+body {
+	height:100%;
+	outline: 3px solid orange;
+	
+}
+
+/* Heading Styles */
+
+h1 {
+	
+	font-size: 2.5em;
+	text-align: center;
+	color: #F1F1F1;
+	background-color:#BA895C;	
+	outline: 2px solid orange;
+	padding-top: .5em;
+	padding-bottom:.5em;
+}
+
+h2 {
+	font-size: 1.75em;
+	text-align:center;
+	color: #365347;
+	-webkit-text-stroke: .13px black;
+	text-decoration:underline orange;
+	
+	
+	
+}
+
+h1, h2 {
+	letter-spacing: 0.1em;
+}
+body > main > p {
+	color: #365347;
+	text-align: center;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+
+a:visited {color: blue;}
+a:hover {color: orange;}
+
+
+/* Footer Styles */
+footer{
+   color: #F1F1F1;
+   height:auto;
+   background-color:#654528 ;
+   font-size: 1.5em;
+   margin-bottom: 1em; 
+   text-align: center;
+   outline: 2px solid orange;
+   
+}
+div > a {font-size: .85em;}
+figure {text-align: center;}
+footer a{
+	color: #F1F1F1;
+	text-decoration:none;
+	
+}
+
+
+
