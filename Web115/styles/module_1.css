@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 html {
-	background-color: #365347;
+	background: url(../images/herb1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
 	
 }
 
