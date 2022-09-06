@@ -59,8 +59,8 @@ h1, h2 {
 	letter-spacing: 0.1em;
 }
 body > main > p {
-	text-align: center;
-	padding-left: 1em;
+	text-align: left;
+	
 	padding-right: 1em;
 }
 
