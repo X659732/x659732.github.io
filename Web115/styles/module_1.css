@@ -91,3 +91,10 @@ footer a{
 footer p{
   font-style: oblique;
 }
+footer a:visited{
+color: green;
+
+}
+footer a:hover{
+color: orange;
+}
