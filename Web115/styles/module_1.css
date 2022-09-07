@@ -88,3 +88,6 @@ footer a{
 	color: #F1F1F1;
 	text-decoration:none;
 }
+footer p{
+  font-style: oblique;
+}
