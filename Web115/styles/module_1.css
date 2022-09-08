@@ -96,6 +96,7 @@ footer a{
 }
 footer p{
   font-style: oblique;
+	margin-top:0;
 }
 footer a:visited{
 color: green;
