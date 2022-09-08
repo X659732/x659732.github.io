@@ -79,12 +79,12 @@ figure { text-align: center;}
 
 /* Footer Styles */
 footer{
-   padding-top: 1em;
-   padding-bottom: 1em;
+   padding-top: .5em;
+   padding-bottom: .5em;
    color: #F1F1F1;
    height:auto;
-   background-color:#654528 ;
-   font-size: 1.5em;
+   background-color:#BA895C;
+   font-size: 1.2em;
    margin-bottom: 0; 
    text-align: center;
    outline: 3.5px solid orange;   
