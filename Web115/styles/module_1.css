@@ -104,6 +104,9 @@ footer a:visited{
 color: green;
 
 }
+footer > nav {
+	margin:0;
+}
 footer a:hover{
 color: orange;
 }
