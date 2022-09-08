@@ -75,6 +75,7 @@ text-decoration: none;
 }
 figure { text-align: center;}
 li a:visited {color: green;}
+li a:hover {color: orange;}
 main > p > ul > li a:hover {color: orange;}
 main > p > ul > li a:visited {color: green;}
 
