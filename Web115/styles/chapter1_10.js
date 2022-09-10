@@ -18,12 +18,12 @@ if (choice1 === "y") {
 	alert("We offer a variety of fruit bearing plants for " + "$" + edible + " and herb plants for " + "$" + ornamental + ".");
 	var pay1 = parseFloat(prompt("How many fruit bearing plants would you be interested in?"));
 	var subTotal1 =  edible * pay1;
-	alert(subTotal1);
+	
 	var pay2 = parseFloat(prompt("How many herb plants would you be interested in?"));
 	var subTotal2 =  ornamental * pay2;
-	alert(subTotal2);
+	
 	var tax = (subTotal1 + subTotal2) * .06;
-	alert(tax);
+	
 	var total = subTotal1 + subTotal2 + tax;
 	
 	alert("The total with tax included is $" + total);
