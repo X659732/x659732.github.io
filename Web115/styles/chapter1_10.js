@@ -26,7 +26,7 @@ if (choice1 === "y") {
 	
 	var total = subTotal1 + subTotal2 + tax;
 	
-	alert("The total with tax included is $" + total);
+	alert("The total with tax included is $" + total.toFixed(2));
 	alert("Thank you for your patronage.");
 	
 }
