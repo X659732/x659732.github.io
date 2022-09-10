@@ -21,9 +21,9 @@ if (choice1 === "y") {
 	alert(subTotal1);
 	var pay2 = parseFloat(prompt("How many herb plants would you be interested in?"));
 	var subTotal2 =  edible * pay2;
-	
+	alert(subTotal2);
 	var tax = (subTotal1 + subTotal2) * .06;
-	
+	alert(tax);
 	var total = subTotal1 + subTotal2 + tax;
 	
 	alert("The total with tax included is $" + total);
