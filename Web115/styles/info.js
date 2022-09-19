@@ -13,10 +13,10 @@ window.onload = function() {
 	  var expect = "";
 	  for (var i = 1; i <= words; i++) {
 		  if (i % 2 === 0 ) {
-			  expect += i +".) "+ "Tainted Toes knows the number is even!<br>";
+			  expect += i +".) "+ "Tainted Toes - the number is even!<br>";
 		}
 		else {
-			expect +=  i +".) "+ "Tainted Toes knows the number is odd!<br>";
+			expect +=  i +".) "+ "Tainted Toes - the number is odd!<br>";
 		}
 	  }
 	  
