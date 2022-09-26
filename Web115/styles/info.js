@@ -9,7 +9,7 @@ window.onload = function() {
 	  var middle_name=document.getElementById("mName").value;
 	  var last_name=document.getElementById("lName").value;
 	  var welcome=document.getElementById("greeting").textContent;
-	  document.getElementById("greeting").innerHTML= welcome;
+	  
 	  document.getElementById("greeting").innerHTML = welcome +" "+ first_name +" "+ middle_name + ". " + last_name;
 	  var words = prompt("How high would you like to count " + first_name + "?" );
 	  var expect = "";
