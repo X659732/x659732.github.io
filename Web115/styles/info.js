@@ -2,8 +2,9 @@
 
 
 window.onload = function() {
-   document.getElementById("greeting").innerHTML= "Welcome to Tainted Toe Industries";
+   
    document.forms[0].onsubmit = function() {
+	  document.getElementById("greeting").innerHTML= "Welcome to Tainted Toe Industries";
 	  var first_name=document.getElementById("fName").value;
 	  var middle_name=document.getElementById("mName").value;
 	  var last_name=document.getElementById("lName").value;
