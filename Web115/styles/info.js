@@ -2,7 +2,7 @@
 
 
 window.onload = function() {
-  
+   document.getElementById("greeting").innerHTML= "Welcome to Tainted Toe Industries";
    document.forms[0].onsubmit = function() {
 	  var first_name=document.getElementById("fName").value;
 	  var middle_name=document.getElementById("mName").value;
