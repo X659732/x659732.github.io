@@ -3,7 +3,7 @@
 html {
 	background: url(../images/herb1.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% ;
+	background-size: 100% auto;
 	
 }
 
