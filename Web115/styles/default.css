@@ -103,7 +103,7 @@ footer a{
 footer p{
   font-style: oblique;
   margin:0;
-  padding:0;
+  padding-bottom:1em;
 	
 }
 footer a:visited{
