@@ -118,7 +118,7 @@ footer a:hover{
 color: orange;
 }
 
-footer > img {padding-top: 20px;}
+footer > a > img {padding-top: 20px;}
 div.tabBox {
 	display: flex;
 	flex-flow: row wrap;
