@@ -104,7 +104,7 @@ footer a{
 footer > p{
   font-style: oblique;
   margin:0;
-  padding-bottom: .5 em;
+ 
 	
 }
 footer a:visited{
@@ -117,6 +117,8 @@ footer > nav {
 footer a:hover{
 color: orange;
 }
+
+footer > img {padding-top: 20px;}
 div.tabBox {
 	display: flex;
 	flex-flow: row wrap;
