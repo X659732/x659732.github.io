@@ -101,10 +101,10 @@ footer a{
 	color: #F1F1F1;
 	text-decoration:underline;
 }
-footer p{
+footer > p{
   font-style: oblique;
   margin:0;
-  padding-bottom: 1 em;
+  padding-bottom: .5 em;
 	
 }
 footer a:visited{
