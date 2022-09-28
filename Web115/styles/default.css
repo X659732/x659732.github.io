@@ -73,7 +73,8 @@ main a:hover {color: orange;}
 main a{
 text-decoration: none;
 }
-figure { text-align: center;}
+figure { text-align: center;
+	 font-style: italic;}
 li a:visited {color: green;}
 li a:hover {color: orange;}
 main > p > ul > li a:hover {color: orange;}
@@ -103,7 +104,7 @@ footer a{
 footer p{
   font-style: oblique;
   margin:0;
-  padding-bottom:1em;
+  padding-bottom: 0.5 em;
 	
 }
 footer a:visited{
