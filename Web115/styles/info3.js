@@ -19,16 +19,16 @@ window.onload = function() {
 	  
 	  for (var i = 1; i <= words; i++) {
 		    if (!factorFun(i,first) && !factorFun(i,second)) {
-				expect += i +".) "+ "Bountiful<br>";
+				expect += i +".) "+ "Spices<br>";
 		}
 			else if (factorFun(i,first) && !factorFun(i,second)) {
-				expect +=  i +".) "+ "Harvest<br>";
+				expect +=  i +".) "+ "Bountiful<br>";
 		}
 			else if (!factorFun(i,first) && factorFun(i,second)) {
-				expect +=  i +".) "+ "Bountiful Harvest<br>";
+				expect +=  i +".) "+ "Bountiful <br>";
 		}
 			else {
-				expect +=  i +".) "+ "Spices<br>";
+				expect +=  i +".) "+ "Bountiful Harvest<br>";
 		}
 	  }
 	  
