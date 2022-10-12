@@ -162,16 +162,20 @@ legend {
 input:focus {
 	background-color: rgb(220, 255, 220);
 }
-
+fNumSpin
 input#fName:focus:valid,
 input#mName:focus:valid,
-input#lName:focus:valid {
+input#lName:focus:valid
+input#fNumSpin:focus:valid
+input#sNumSpin:focus:valid {
 	background: rgb(220, 255, 220);
 }
 
 input#fName:focus:invalid,
 input#mName:focus:invalid,
-input#lName:focus:invalid {
+input#lName:focus:invalid
+input#fNumSpin:focus:invalid 
+input#sNumSpin:focus:invalid {
 	background: rgb(255, 232, 233);
 }
 
