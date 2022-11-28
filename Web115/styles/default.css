@@ -110,6 +110,7 @@ footer > p{
 }
 .motto{
 font-style:italic;
+font-weight: normal;
 }
 footer a:visited{
 color: green;
