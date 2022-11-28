@@ -106,9 +106,10 @@ footer a{
 }
 footer > p{
   font-style: oblique;
-  margin:0;
- 
-	
+  margin:0; 	
+}
+#motto{
+font-style:italic;
 }
 footer a:visited{
 color: green;
