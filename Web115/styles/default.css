@@ -76,6 +76,10 @@ main > ul > li{
 	padding-left: 2em;
 	margin:2em;
 }
+main > nav {
+	padding-left: 2em;
+	margin:2em;
+}
 p {
 	
 	padding-left: 1em;
