@@ -1,7 +1,7 @@
 "use strict"
 
 
-var company = "Tainted Toe Industries ";
+var company = "Broken Branch Greenspaces ";
 var greeting = "Greets you!";
 
 alert(company + greeting);
