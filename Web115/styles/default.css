@@ -221,7 +221,9 @@ main > p > ul > li a:visited {color: green;}
 main > ul > li a {
 	text-decoration: none;
 }
-
+main > ul > li a {
+	color: rgb(91,91,91);
+}
 
 /* Footer Styles */
 footer{
