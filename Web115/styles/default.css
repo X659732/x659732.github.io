@@ -13,10 +13,7 @@ article, aside, figcaption, figure, footer, header, main, nav, section {
 	box-sizing: border-box;
 } 
 
-nav ul {
-	list-style: none;
-	list-style-image: none;
-}
+
 
 nav a {
 	text-decoration: none;
@@ -87,6 +84,14 @@ h1, h2, h3, h4{
 	font-family:Georgia,sans-serif;
 }
 .bio{
+	padding-left: 2em;
+	margin:2em;
+}
+main > ul{
+	padding-left: 2em;
+	margin:2em;
+}
+main > ul > li{
 	padding-left: 2em;
 	margin:2em;
 }
