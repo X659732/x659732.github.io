@@ -233,7 +233,7 @@ footer{
    text-align: center;
    outline: 3.5px solid orange;   
 }
-nav > a {font-size: .85em;}
+footer > nav > a {font-size: .85em;}
 footer a{
 	color: #F1F1F1;
 	text-decoration:underline;
@@ -246,6 +246,7 @@ footer > p{
 font-style:italic;
 font-weight: normal;
 font-size: .95em;
+color: #991e00;
 }
 footer a:visited{
 color: green;
