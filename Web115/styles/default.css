@@ -74,7 +74,7 @@ h1, h2, h3, h4{
 }
 .righty{
 	text-indent: 2.5em;
-	list-style: none;
+	list-style-type: none;
 }
 main > ul{
 	padding-left: 2em;
