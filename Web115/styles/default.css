@@ -65,7 +65,8 @@ h1, h2, h3, h4{
 	font-family:Georgia,sans-serif;
 }
 .move_over{
-	margin:3em;	
+	margin:3em;
+	padding:4em;
 }
 .bio{
 	padding-left: 2em;
