@@ -1,24 +1,5 @@
 @charset "utf-8";
 
-article, aside, figcaption, figure, footer, header, main, nav, section {
-	display: block;
-}
-
- header, li, nav, ul {
-	background: transparent;
-	font-size: 100%;
-	margin: 0;
-	padding: 0;
-	vertical-align: baseline;
-	box-sizing: border-box;
-} 
-
-
-
-nav a {
-	text-decoration: none;
-}
-
 html {
 	background: url(../images/herb1.jpg);
 	background-repeat: repeat-y;
