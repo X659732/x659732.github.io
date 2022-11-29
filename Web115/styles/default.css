@@ -1,5 +1,27 @@
 @charset "utf-8";
 
+article, aside, figcaption, figure, footer, header, main, nav, section {
+	display: block;
+}
+
+ header, li, nav, ul {
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	box-sizing: border-box;
+} 
+
+nav ul {
+	list-style: none;
+	list-style-image: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
 html {
 	background: url(../images/herb1.jpg);
 	background-repeat: repeat-y;
@@ -70,6 +92,118 @@ p {
 	padding-right: 1em;
 	font-size: 1em;
 }
+/* Header nav Styles */
+
+.Main_M {
+	line-height: 2em;
+	list-style-type: none;
+	font-size: 1.11em;
+	color: #991e00;
+	font-family: Georgia, sans-serif;
+	
+}
+ul.Main_M > li {
+   background-color: #654528;
+   outline: 1px solid orange;
+}  
+nav.topList {
+	width:100%;
+	
+}
+
+ul.Main_M > li {
+	display: block;
+	float: left;
+	position:relative;
+	width: 16.66%;
+}
+nav.topList a {
+	display: block;
+	text-align: center;
+}
+nav.topList a:link, nav.topList a:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+nav.topList a:hover, nav.topList a:active {
+	background-color: green;
+	
+}
+ul.Menu_bar {
+   width: 100%;
+   line-height: 1.25em;
+	list-style-type: none;
+	font-size: .95em;
+	color: #F1F1F1;
+	
+	
+}
+li.Menu_bar{background-color:#8a773c;
+	outline: 1px solid orange;
+	border: 1px solid orange;
+}
+/*=============================
+	Pull down menu
+   ============================
+*/
+
+ul.Menu_bar {
+	display: none;
+	
+}
+a.second_navbar_group:hover+ul.Menu_bar, ul.Menu_bar:hover {
+	display:block;
+	
+	
+}
+
+/* =============================
+	Mobile Styles: 0px to 480px
+   =============================
+*/
+
+@media only screen and (max-width:480px) {
+ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: relative;
+		width: 100%;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+ul.Main_M > li {
+	display: block;
+	
+	position:relative;
+	width: 100%;
+}
+}
+/* =============================
+	Tablet Styles: 481px and greater
+   =============================
+*/
+
+@media only screen and (min-width:481px) {
+	
+	ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: absolute;
+		width: 100%;
+		float:left;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+}
+}
+/* =============================
+	Desktop Styles: 769px and greater
+   =============================
+*/
+
+@media only screen and (min-width:769px) {
+	
+}
+
 
 main a:visited {color: green;}
 main a:hover {color: orange;}
