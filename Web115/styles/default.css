@@ -70,11 +70,14 @@ h1, h2, h3, h4{
 }
 .bio{
 	padding-left: 2em;
-	margin:2em;
+	margin: 2em;
+}
+.righty{
+	text-indent: 2.5em;
 }
 main > ul{
 	padding-left: 2em;
-	margin:2em;
+	margin: 2em;
 }
 main > ul > li{
 	padding-left: 2em;
