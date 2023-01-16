@@ -1,8 +1,8 @@
 @charset "utf-8";
 
 html {
-	background: url(../images/herb1.jpg);
-	background-repeat: repeat-y;
+	background:linear-gradient(to left top, blue, red);
+	
 	background-size: 100% auto;
 	
 }
