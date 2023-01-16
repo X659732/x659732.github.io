@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+html {
+	background: url(../images/herb1.jpg);
+	background-repeat: repeat-y;
+	background-size: 100% auto;
+	
+}
+
+body{
+	color: rgb(91,91,91);
+	background-color: #ede4d3;
+	font-family: "open sans", Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 320px;
+	height:100%;
+	width: auto;
+	
+}
+
+
+body > header {
+	display: block;
+	width: 100%;
+	height:auto;
+	margin-top:0;
+}
+body {
+	
+	outline: 7px solid orange;
+}
+
+/* Heading Styles */
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	padding: .2em;
+	text-indent: .75em;
+	color: #F1F1F1;
+	-webkit-text-stroke: .25px black;
+	background-color:#BA895C;	
+	outline: 3.5px solid orange;
+}
+h2 {
+	font-size: 1.75em;
+	text-align:center;
+	color: #991e00;
+	-webkit-text-stroke: .13px black;
+	text-decoration:none;
+	
+	
+}
+h3 {
+	text-align:center;
+	font-size: 1.5em;
+}
+
+h1, h2 {
+	letter-spacing: 0.1em;
+}
+h1, h2, h3, h4{
+	font-family:Georgia,sans-serif;
+}
+.move_over{
+	margin:1em;
+	padding:2em;
+}
+.bio{
+	padding-left: 2em;
+	margin: 2em;
+}
+.righty{
+	text-indent: 2.5em;
+	list-style-type: none;
+}
+main > ul{
+	padding-left: 2em;
+	margin: 2em;
+}
+main > ul > li{
+	padding-left: 2em;
+	margin:2em;
+}
+main > nav {
+	padding-left: 2em;
+	margin:2em;
+}
+p {
+	
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 1em;
+}
+/* Header nav Styles */
+
+.Main_M {
+	line-height: 2em;
+	list-style-type: none;
+	font-size: 1.11em;
+	color: #991e00;
+	font-family: Georgia, sans-serif;
+	
+}
+ul.Main_M > li {
+   background-color: #654528;
+   outline: 1px solid orange;
+}  
+nav.topList {
+	width:100%;
+	
+}
+
+ul.Main_M > li {
+	display: block;
+	float: left;
+	position:relative;
+	width: 16.66%;
+}
+nav.topList a {
+	display: block;
+	text-align: center;
+}
+nav.topList a:link, nav.topList a:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+nav.topList a:hover, nav.topList a:active {
+	background-color: green;
+	
+}
+ul.Menu_bar {
+   width: 100%;
+   line-height: 1.25em;
+	list-style-type: none;
+	font-size: .95em;
+	color: #F1F1F1;
+	
+	
+}
+li.Menu_bar{background-color:#8a773c;
+	outline: 1px solid orange;
+	border: 1px solid orange;
+}
+a{
+	color:rgb(91,91,91);
+}
