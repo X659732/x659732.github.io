@@ -29,7 +29,7 @@ body > header {
 }
 body {
 	
-	outline: 7px solid orange;
+	outline: 7px solid black;
 }
 
 /* Heading Styles */
@@ -106,7 +106,7 @@ p {
 }
 ul.Main_M > li {
    background-color: #654528;
-   outline: 1px solid orange;
+   outline: 1px solid black;
 }  
 nav.topList {
 	width:100%;
@@ -142,8 +142,8 @@ ul.Menu_bar {
 	
 }
 li.Menu_bar{background-color:#8a773c;
-	outline: 1px solid orange;
-	border: 1px solid orange;
+	outline: 1px solid black;
+	border: 1px solid black;
 }
 a{
 	color:rgb(91,91,91);
@@ -238,7 +238,7 @@ footer{
    font-size: 1.2em;
    margin-bottom: 0; 
    text-align: center;
-   outline: 3.5px solid orange;   
+   outline: 3.5px solid black;   
 }
 footer > nav > a {font-size: .85em;}
 footer a{
