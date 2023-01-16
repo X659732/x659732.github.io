@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-	background:linear-gradient(to left top, blue, red);
+	background:linear-gradient(to left top, beige, red);
 	
 	background-size: 100% auto;
 	
@@ -42,7 +42,7 @@ h1 {
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
 	background-color:#BA895C;	
-	outline: 3.5px solid orange;
+	outline: 3.5px solid green;
 }
 h2 {
 	font-size: 1.75em;
