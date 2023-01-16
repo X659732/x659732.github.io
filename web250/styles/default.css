@@ -148,3 +148,123 @@ li.Menu_bar{background-color:#8a773c;
 a{
 	color:rgb(91,91,91);
 }
+/*=============================
+	Pull down menu
+   ============================
+*/
+
+ul.Menu_bar {
+	display: none;
+	
+}
+a.second_navbar_group:hover+ul.Menu_bar, ul.Menu_bar:hover {
+	display:block;
+	
+	
+}
+
+/* =============================
+	Mobile Styles: 0px to 480px
+   =============================
+*/
+
+@media only screen and (max-width:480px) {
+ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: relative;
+		width: 100%;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+ul.Main_M > li {
+	display: block;
+	
+	position:relative;
+	width: 100%;
+}
+}
+/* =============================
+	Tablet Styles: 481px and greater
+   =============================
+*/
+
+@media only screen and (min-width:481px) {
+	
+	ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: absolute;
+		width: 100%;
+		float:left;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+}
+}
+/* =============================
+	Desktop Styles: 769px and greater
+   =============================
+*/
+
+@media only screen and (min-width:769px) {
+	
+}
+
+
+main a:visited {color: green;}
+main a:hover {color: orange;}
+main a{
+text-decoration: none;
+}
+figure { text-align: center;
+	 font-style: italic;}
+li a:visited {color: green;}
+li a:hover {color: orange;}
+main > p > ul > li a:hover {color: orange;}
+main > p > ul > li a:visited {color: green;}
+main > ul > li a {
+	text-decoration: none;
+}
+main > ul > li a {
+	color: rgb(91,91,91);
+}
+
+/* Footer Styles */
+footer{
+   padding-top: .2em;
+   padding-bottom: .2em;
+   color: #F1F1F1;
+   height:auto;
+   background-color:#BA895C;
+   font-size: 1.2em;
+   margin-bottom: 0; 
+   text-align: center;
+   outline: 3.5px solid orange;   
+}
+footer > nav > a {font-size: .85em;}
+footer a{
+	color: #F1F1F1;
+	text-decoration:underline;
+}
+footer > p{
+  font-style: oblique;
+  margin:0; 	
+}
+.righty{text-indent: 2em;}
+.motto{
+font-style:italic;
+font-weight: normal;
+font-size: .95em;
+color: #991e00;
+}
+footer a:visited{
+color: green;
+
+}
+footer > nav {
+	margin:0;
+}
+footer a:hover{
+color: orange;
+}
+
+footer > a > img {padding-top: 20px;}
