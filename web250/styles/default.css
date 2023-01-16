@@ -41,7 +41,7 @@ h1 {
 	text-indent: .75em;
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
-	background-color:#BA895C;	
+	background-color: #707070;	
 	outline: 3.5px solid black;
 }
 h2 {
@@ -100,7 +100,7 @@ p {
 	line-height: 2em;
 	list-style-type: none;
 	font-size: 1.11em;
-	color: #991e00;
+	color: red;
 	font-family: Georgia, sans-serif;
 	
 }
