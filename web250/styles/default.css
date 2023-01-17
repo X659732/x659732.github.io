@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 html {
-	background:linear-gradient(to left top, #d4d4d4, #a80000);
+	background:url(../images/circuit.jpg);
 	
 	background-repeat: no-repeat;
 	 background-attachment: fixed;
