@@ -2,10 +2,9 @@
 
 html {
 	background:linear-gradient(to left top, #d4d4d4, #a80000);
-	background-size: auto, cover;
 	
-	background-size: 100% auto;
-	
+	background-size: auto;
+	background-repeat: no-repeat;
 }
 
 body{
