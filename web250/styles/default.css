@@ -1,10 +1,10 @@
 @charset "utf-8";
 
 html {
-	background:url(../images/circuit.jpg);
+	background: url(../images/circuit.jpg);
 	
-	background-repeat: no-repeat;
-	 background-attachment: fixed;
+	background-repeat: repeat-y;
+	 background-size: 100% auto;
 }
 
 body{
