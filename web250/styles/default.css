@@ -9,7 +9,7 @@ html {
 
 body{
 	color: rgb(91,91,91);
-	background-color: #ede4d3;
+	background-color: #ffcbcb;
 	font-family: "open sans", Verdana, Geneva, sans-serif;
 	margin-left: auto;
 	margin-right: auto;
@@ -105,7 +105,7 @@ p {
 	
 }
 ul.Main_M > li {
-   background-color: #731010;
+   background-color: #c21807;
    outline: 1px solid black;
 }  
 nav.topList {
@@ -234,7 +234,7 @@ footer{
    padding-bottom: .2em;
    color: #F1F1F1;
    height:auto;
-   background-color:#731010;
+   background-color:#c21807;
    font-size: 1.2em;
    margin-bottom: 0; 
    text-align: center;
