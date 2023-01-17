@@ -42,7 +42,7 @@ h1 {
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
 	background-color: #707070;	
-	outline: 3.5px solid black;
+	outline: 3.5px solid #a9a9a9;
 }
 h2 {
 	font-size: 1.75em;
@@ -106,7 +106,7 @@ p {
 }
 ul.Main_M > li {
    background-color: #c21807;
-   outline: 1px solid black;
+   outline: 1px solid #a9a9a9;
 }  
 nav.topList {
 	width:100%;
@@ -142,8 +142,8 @@ ul.Menu_bar {
 	
 }
 li.Menu_bar{background-color:#8a773c;
-	outline: 1px solid black;
-	border: 1px solid black;
+	outline: 1px solid #a9a9a9;
+	border: 1px solid #a9a9a9;
 }
 a{
 	color:rgb(91,91,91);
@@ -238,7 +238,7 @@ footer{
    font-size: 1.2em;
    margin-bottom: 0; 
    text-align: center;
-   outline: 3.5px solid black;   
+   outline: 3.5px solid #a9a9a9;   
 }
 footer > nav > a {font-size: .85em;}
 footer a{
