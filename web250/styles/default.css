@@ -3,8 +3,8 @@
 html {
 	background:linear-gradient(to left top, #d4d4d4, #a80000);
 	
-	background-size: auto;
 	background-repeat: no-repeat;
+	 background-attachment: fixed;
 }
 
 body{
