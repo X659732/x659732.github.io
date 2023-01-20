@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+html {
+	background: url(../images/forest.jpg);
+	
+	background-repeat: repeat-y;
+	 background-size: 100% auto;
+}
+
+body{
+	color: rgb(91,91,91);
+	background-color: #f5f5f5;
+	font-family: "open sans", Verdana, Geneva, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+	min-width: 320px;
+	height:100%;
+	width: auto;
+	
+}
+
+
+body > header {
+	display: block;
+	width: 100%;
+	height:auto;
+	margin-top:0;
+}
+body {
+	
+	outline: 6px solid #a9a9a9;
+}
+
+/* Heading Styles */
+
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	padding: .2em;
+	text-indent: .75em;
+	color: #F1F1F1;
+	-webkit-text-stroke: .25px black;
+	background-color: #707070;	
+	outline: 3.5px solid #a9a9a9;
+}
+h2 {
+	font-size: 1.75em;
+	text-align:center;
+	color: #991e00;
+	-webkit-text-stroke: .13px black;
+	text-decoration:none;
+	
+	
+}
+h3 {
+	text-align:center;
+	font-size: 1.5em;
+}
+
+h1, h2 {
+	letter-spacing: 0.1em;
+}
+h1, h2, h3, h4{
+	font-family:Georgia,sans-serif;
+}
+.move_over{
+	margin:1em;
+	padding:2em;
+}
+.bio{
+	padding-left: 2em;
+	margin: 2em;
+}
+.righty{
+	text-indent: 2.5em;
+	list-style-type: none;
+}
+main > ul{
+	padding-left: 2em;
+	margin: 2em;
+}
+main > ul > li{
+	padding-left: 2em;
+	margin:2em;
+}
+main > nav {
+	padding-left: 2em;
+	margin:2em;
+}
+p {
+	
+	padding-left: 1em;
+	padding-right: 1em;
+	font-size: 1em;
+}
+/* Header nav Styles */
+
+.Main_M {
+	line-height: 2em;
+	list-style-type: none;
+	font-size: 1.11em;
+	color: #d4d4d4;
+	font-family: Georgia, sans-serif;
+	
+}
+ul.Main_M > li {
+   background-color: #c21807;
+   outline: 1px solid #a9a9a9;
+}  
+nav.topList {
+	width:100%;
+	
+}
+
+ul.Main_M > li {
+	display: block;
+	float: left;
+	position:relative;
+	width: 16.66%;
+}
+nav.topList a {
+	display: block;
+	text-align: center;
+}
+nav.topList a:link, nav.topList a:visited {
+	color: orange;
+	text-decoration: none;
+}
+
+nav.topList a:hover, nav.topList a:active {
+	background-color: beige;
+	
+}
+ul.Menu_bar {
+   width: 100%;
+   line-height: 1.25em;
+	list-style-type: none;
+	font-size: .95em;
+	color: #F1F1F1;
+	
+	
+}
+li.Menu_bar{background-color:#8a773c;
+	outline: 1px solid #a9a9a9;
+	border: 1px solid #a9a9a9;
+}
+a{
+	color:rgb(91,91,91);
+}
+/*=============================
+	Pull down menu
+   ============================
+*/
+
+ul.Menu_bar {
+	display: none;
+	
+}
+a.second_navbar_group:hover+ul.Menu_bar, ul.Menu_bar:hover {
+	display:block;
+	
+	
+}
+
+/* =============================
+	Mobile Styles: 0px to 480px
+   =============================
+*/
+
+@media only screen and (max-width:480px) {
+ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: relative;
+		width: 100%;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+ul.Main_M > li {
+	display: block;
+	
+	position:relative;
+	width: 100%;
+}
+}
+/* =============================
+	Tablet Styles: 481px and greater
+   =============================
+*/
+
+@media only screen and (min-width:481px) {
+	
+	ul.Menu_bar {
+		box-shadow: rgb(51, 51, 51) 5px 5px 15px;
+		position: absolute;
+		width: 100%;
+		float:left;
+		background-color:#8a773c;
+		overflow:hidden;
+	}
+}
+
+/* =============================
+	Desktop Styles: 769px and greater
+   =============================
+*/
+
+@media only screen and (min-width:769px) {
+	
+}
+
+
+main a:visited {color: green;}
+main a:hover {color: orange;}
+main a{
+text-decoration: none;
+}
+figure { text-align: center;
+	 font-style: italic;}
+li a:visited {color: green;}
+li a:hover {color: orange;}
+main > p > ul > li a:hover {color: orange;}
+main > p > ul > li a:visited {color: green;}
+main > ul > li a {
+	text-decoration: none;
+}
+main > ul > li a {
+	color: rgb(91,91,91);
+}
+
+/* Footer Styles */
+footer{
+   padding-top: .2em;
+   padding-bottom: .2em;
+   color: #F1F1F1;
+   height:auto;
+   background-color:#c21807;
+   font-size: 1.2em;
+   margin-bottom: 0; 
+   text-align: center;
+   outline: 3.5px solid #a9a9a9;   
+}
+footer > nav > a {font-size: .85em;}
+footer a{
+	color: #F1F1F1;
+	text-decoration:underline;
+}
+footer > p{
+  font-style: oblique;
+  margin:0; 	
+}
+.righty{text-indent: 2em;}
+.motto{
+font-style:italic;
+font-weight: normal;
+font-size: .95em;
+color: #F1F1F1;
+}
+footer a:visited{
+color: green;
+
+}
+footer > nav {
+	margin:0;
+}
+footer a:hover{
+color: orange;
+}
+
+footer > a > img {padding-top: 20px;}
