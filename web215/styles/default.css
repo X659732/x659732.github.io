@@ -64,6 +64,9 @@ h1, h2 {
 h1, h2, h3, h4{
 	font-family:Georgia,sans-serif;
 }
+header > nav{
+	maring-top:0;
+}
 .move_over{
 	margin:1em;
 	padding:2em;
