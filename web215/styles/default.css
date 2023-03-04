@@ -44,8 +44,9 @@ h1 {
 	-webkit-text-stroke: .25px black;
 	background-color: #707070;	
 	outline: 3.5px solid #a9a9a9;
-	border:0px;
+	border-bottom:0px;
 	margin-bottom:0px;
+	padding-bottom:0px;
 }
 h2 {
 	font-size: 1.75em;
