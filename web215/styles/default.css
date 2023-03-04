@@ -26,7 +26,7 @@ body > header {
 	width: 100%;
 	height:auto;
 	margin-top:0;
-	margin-bottom:0;
+	
 }
 body {
 	
@@ -44,6 +44,7 @@ h1 {
 	-webkit-text-stroke: .25px black;
 	background-color: #707070;	
 	outline: 3.5px solid #a9a9a9;
+	border:0;
 }
 h2 {
 	font-size: 1.75em;
