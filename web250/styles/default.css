@@ -25,7 +25,8 @@ body > header {
 	display: block;
 	width: 100%;
 	height:auto;
-	margin-top:0;
+	
+	
 }
 body {
 	
@@ -37,12 +38,15 @@ body {
 h1 {
 	font-size: 2.5em;
 	text-align: center;
-	padding: .2em;
+	
 	text-indent: .75em;
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
 	background-color: #707070;	
 	outline: 3.5px solid #a9a9a9;
+	border-bottom:0px;
+	margin-bottom:0px;
+	padding-bottom:0px;
 }
 h2 {
 	font-size: 1.75em;
@@ -50,6 +54,7 @@ h2 {
 	color: #991e00;
 	-webkit-text-stroke: .13px black;
 	text-decoration:none;
+	padding-top:1em;
 	
 	
 }
@@ -63,6 +68,10 @@ h1, h2 {
 }
 h1, h2, h3, h4{
 	font-family:Georgia,sans-serif;
+}
+header > nav{
+	margin-top:0;
+	
 }
 .move_over{
 	margin:1em;
