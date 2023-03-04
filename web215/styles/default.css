@@ -38,14 +38,14 @@ body {
 h1 {
 	font-size: 2.5em;
 	text-align: center;
-	padding: .2em;
+	
 	text-indent: .75em;
 	color: #F1F1F1;
 	-webkit-text-stroke: .25px black;
 	background-color: #707070;	
 	outline: 3.5px solid #a9a9a9;
-	border:0;
-	margin-bottom:0;
+	border:0px;
+	margin-bottom:0px;
 }
 h2 {
 	font-size: 1.75em;
