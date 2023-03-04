@@ -46,8 +46,8 @@ h1 {
 	outline: 3.5px solid #a9a9a9;
 	border-bottom:0px;
 	margin-bottom:0px;
-	padding-bottom:1.5em;
-	padding-top:1.5em;
+	padding-bottom:.55em;
+	padding-top:.55em;
 }
 h2 {
 	font-size: 1.75em;
