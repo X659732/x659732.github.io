@@ -267,14 +267,14 @@ font-size: .95em;
 color: #F1F1F1;
 }
 footer a:visited{
-color: green;
+color: orange;
 
 }
 footer > nav {
 	margin:0;
 }
 footer a:hover{
-color: orange;
+color: grey;
 }
 
 footer > a > img {padding-top: 20px;}
