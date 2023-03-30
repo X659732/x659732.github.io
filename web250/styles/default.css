@@ -253,7 +253,7 @@ footer{
 footer > nav > a {font-size: .85em;}
 footer a{
 	color: #F1F1F1;
-	text-decoration:underline;
+	text-decoration:none;
 }
 footer > p{
   font-style: oblique;
@@ -266,10 +266,7 @@ font-weight: normal;
 font-size: .95em;
 color: #F1F1F1;
 }
-footer a:visited{
-color: green;
 
-}
 footer > nav {
 	margin:0;
 }
